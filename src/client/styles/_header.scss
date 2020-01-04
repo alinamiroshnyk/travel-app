@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  height: auto;
+  background-color: rgb(245, 206, 236);
+}
+
+.image {
+  padding: 20px;
+  background-image: url("../assets/logo.png");
+  width: 30px;
+  height: 30px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

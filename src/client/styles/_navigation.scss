@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  position: relative;
+  font-family: 'Helvetica Neue', sans-serif; 
+  background-color: rgb(245, 206, 236);
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  grid-area: main;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.navigation_section {
+  background-color: rgb(253, 232, 252);
+}
+.container {
+  padding: 20px;
+}
+.search_container {
+  text-align: center;
+}
+
+.destination_field {
+  padding: 20px;
+}
+
+.departure {
+  padding: 20px;
+}
+
+#date_picker {
+  margin-bottom: 20px;
+}
+
+#search_button {
+    width: auto;
+    text-align: center;
+    background-color: rgb(245, 206, 236);
+    border: 2px solid rgba(255, 155, 242, 0.911);;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (min-width: 768px) {
+  // main {
+  //   section {
+
+  //   }
+  // }
+}

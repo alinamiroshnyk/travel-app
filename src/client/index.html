@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+         <title>Travel planner</title>
+    </head>
+
+    <body>
+        <div class="main_container">
+            <header>
+                <div class="image"></div>
+                <div class="title">
+                    <h2>Travel planner</h2>
+                </div>
+            </header>
+
+        <div class="navigation_section">
+            <section class="container">
+                <div class="search_container">
+                    <h2 class="title">Any weather is awesome if you're in a new city</h2>
+                    <label class="destination_field" for="destination_input">Enter your destination:</label>
+                    <input id="destination_input" name="input" placeholder="Where to?" type="text">
+                    <div class="departure">
+                        <label id="departure">Select your departure date:</label>
+                        <input id="date_picker">
+                    </div>
+                    </input>
+                    <button id="search_button" type="submit">Search</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="result">
+            <div class="result_container">
+                <h1 class="result_destination_title">Your destination is: </h1>
+                <img alt="Your destination" id="destination_picture" src="https://via.placeholder.com/300/09f/fff.png" />
+                <div class="result_departure_title">
+                    <h2>Departure Date: </h2>
+                    <label id="departure_result"></label>
+                </div>
+                <div class="weather_result">
+                    <h2 class="result_weather_title">Weather for your selected date:</h2>
+                        <div class="temperature">
+                            <h4>Temperature in F:</h4>
+                            <label id="weather_sky_results"></label>
+                        </div>
+
+                </div> 
+            </div>
+        </div>
+
+            <footer class="footer">
+                Alina Miroshnyk 2019
+            </footer>
+        </div>
+    </body>
+</html>
