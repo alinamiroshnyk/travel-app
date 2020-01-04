@@ -22,4 +22,6 @@ npm start
 ## Usage
 Enter destination
 Enter date
-Hit the "Find" button
+Hit the "Search" button
+
+You'll see the picture from your destination, date and weather
